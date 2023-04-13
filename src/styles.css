@@ -1,11 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
   --bg-color: #111111;
+  --white: #FFFFFF;
+
+  font-size: 67.5%;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--bg-color)
+  background-color: var(--bg-color);
+  font-size: 1.6rem;
 }
