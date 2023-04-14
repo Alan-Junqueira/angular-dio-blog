@@ -1,0 +1,19 @@
+.container__small-card {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  gap: 2rem;
+
+  border-bottom: 2px solid gray;
+  padding-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.container__small-card img {
+  width: 100%;
+  height: auto;
+}
+
+.small-card__title {
+  display: flex;
+  align-items: center;
+}
