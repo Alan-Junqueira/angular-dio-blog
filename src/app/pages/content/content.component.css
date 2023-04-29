@@ -1,0 +1,30 @@
+.container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.container__content h1 {
+  width: 100%;
+  border-bottom: 2px solid gray;
+  width: fit-content;
+}
+
+.container__content p {
+  color: grey;
+  margin-top: 1.6rem;
+}
+
+.content__cover {
+}
+
+.content__cover img {
+  border: 5px solid rgb(144, 144, 144);
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+
+}
